@@ -1,0 +1,36 @@
+.ManagementStructure{
+    padding: 20px;
+    width: 100%;
+    
+    .title{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        img{
+        width: 80%;
+        
+        margin: 20px 0;
+        }
+    }
+
+    .otcetList{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        img{
+            width: 60%;
+        }
+
+        
+    }
+}
+
+.otcetLink:hover{
+  border-bottom: 4px solid #00afef;
+    
+}

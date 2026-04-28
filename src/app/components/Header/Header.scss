@@ -1,0 +1,164 @@
+.Header{
+    padding: 0 5vw;
+    border-bottom: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/images/bgc.jpg);
+    font-size: large;
+    font-weight: bold;
+    .logo{
+        margin:20px 0;
+        flex-wrap: nowrap;
+        background-size: cover;
+        
+        img{
+            width: 100px;
+            height: 100px;
+        }
+        
+    }
+}
+
+
+.Links{
+    height: 120px;
+    width: 100%;
+    list-style: none;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
+    li{
+        margin-top: 12px;
+        height: 100%;
+    }
+
+    .link{
+        height: 100%;
+        min-width: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;    
+        cursor: pointer;
+    }
+
+    .link:hover{
+        color: #8bd4da;
+    }
+}
+.drawerLinks{
+    display: none;
+    
+
+ }
+
+.drawer{
+    .link{
+        height: 150px;
+        min-width: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;    
+        cursor: pointer;
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 800px) {
+    .drawerLinks{
+        display: block;
+    }
+    .Links{
+        display: none;
+    }
+    .Header{
+        flex-direction: column;
+    }
+    
+}
+
+.dropdownNIC {
+    padding-left: 20px;
+    position: relative;
+    display: inline-block;
+    .dropright{
+    position: fixed;
+    left:200px;
+    top: 150px;
+    
+}
+  }
+  
+  .dropdown-contentNIC {
+    display: none;
+    position: absolute;
+    z-index: 2;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+  }
+  
+  .dropdownNIC:hover .dropdown-contentNIC {
+    display: block;
+  }
+
+ 
+
+ .dropdownGAG {
+    padding-left: 20px;
+    position: relative;
+    display: inline-block;
+    .dropright{
+    position: fixed;
+    left:200px;
+    top: 310px;
+}
+  }
+  
+  .dropdown-contentGAG {
+    display: none;
+    position: absolute;
+    z-index: 2;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+  }
+  
+  .dropdownGAG:hover .dropdown-contentGAG {
+    display: block;
+  }
+
+
+
+.dropDownLink{
+    min-width: 200px;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+
+    :hover{
+        color: #8bd4da;
+    }
+
+    a{
+        display: flex;
+        align-items: center ;
+        height: 50px;
+    }
+
+}
+
+.dropDownLink:hover{
+        color: #8bd4da;
+    }
+
+#drawerBut{
+    border:1px solid blue;
+    margin:30px 0;
+}
+

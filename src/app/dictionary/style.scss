@@ -1,0 +1,335 @@
+.Dictionary {
+  flex: 1;
+  padding: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.dictionary-title {
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.dictionary-input {
+  width: 100%;
+  padding: 0.875rem 1.25rem;
+  font-size: 1.1rem;
+  border: 2px solid #d1d5db;
+  border-radius: 0.75rem;
+  outline: none;
+  transition: all 0.2s ease;
+  margin-bottom: 1.5rem;
+
+  &:focus {
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.15);
+  }
+}
+
+.dictionary-results {
+  display: flex;
+  flex-direction: column;
+  gap: 0.875rem;
+}
+
+.dictionary-item {
+  padding: 1.25rem;
+  border-radius: 0.75rem;
+  border: 1px solid #e5e7eb;
+  background-color: #ffffff;
+  transition: all 0.2s ease;
+
+  &.sub {
+    background-color: #f9fafb;
+    border-left: 5px solid #93c5fd;
+    padding-left: 1.75rem;
+    margin-left: 1.5rem;
+    margin-top: 5px;
+    border-radius: 0.5rem;
+  }
+
+  &.new-group {
+    margin-top: 1.75rem;
+    border-top: 2px solid #bfdbfe;
+    padding-top: 1.75rem;
+  }
+}
+
+.dictionary-ru {
+  font-weight: 600;
+  font-size: 1.15rem;
+  color: #111827;
+  margin-bottom: 0.5rem;
+}
+
+.dictionary-lang {
+    margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.75rem;
+  font-size: 0.925rem;
+  color: #4b5563;
+
+  strong {
+    color: #1f2937;
+    margin-right: 0.25rem;
+  }
+}
+
+.dictionary-no-results {
+  text-align: center;
+  color: #6b7280;
+  font-style: italic;
+  margin-top: 2rem;
+  font-size: 1.1rem;
+}
+
+.dictionary-loading {
+  text-align: center;
+  color: #6b7280;
+  font-size: 1.1rem;
+  margin-top: 2rem;
+}
+
+.dictionary-error {
+  background: #fee2e2;
+  color: #991b1b;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #fecaca;
+  margin-bottom: 1.5rem;
+  font-size: 0.95rem;
+
+  code {
+    background: #fecaca;
+    padding: 0.2rem 0.4rem;
+    border-radius: 0.25rem;
+    font-family: monospace;
+  }
+
+  a {
+    color: #1d4ed8;
+    text-decoration: underline;
+  }
+}
+.search-bar {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  align-items: stretch;
+}
+
+.search-button {
+    height: 53px;
+  padding: 0 1.5rem;
+  background-color: #3b82f6;
+  color: white;
+  font-weight: 600;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 0.75rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+
+  &:hover {
+    background-color: #2563eb;
+  }
+
+  &:active {
+    transform: translateY(1px);
+  }
+}
+
+.dictionary-input {
+  flex: 1;
+  // (остальное — как было)
+}
+.search-bar {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  align-items: stretch;
+}
+
+.search-button {
+  padding: 0 1.75rem;
+  background: #3b82f6;
+  color: white;
+  font-weight: 600;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 0.75rem;
+  cursor: pointer;
+  transition: background 0.2s;
+
+  &:hover {
+    background: #2563eb;
+  }
+
+  &:active {
+    transform: translateY(1px);
+  }
+}
+
+.dictionary-input {
+  flex: 1;
+  padding: 0.875rem 1.25rem;
+  font-size: 1.1rem;
+  border: 2px solid #d1d5db;
+  border-radius: 0.75rem;
+  outline: none;
+
+  &:focus {
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.15);
+  }
+}
+
+.highlight {
+  background-color: #fbbf24;  /* жёлтый */
+  color: #1f2937;
+  font-weight: 600;
+  padding: 0 0.15rem;
+  border-radius: 0.25rem;
+}
+.switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  user-select: none;
+
+  input {
+    display: none;
+  }
+
+  .slider {
+    width: 42px;
+    height: 22px;
+    background: #ccc;
+    border-radius: 22px;
+    position: relative;
+    transition: 0.3s;
+  }
+
+  .slider::before {
+    content: "";
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 2px;
+    left: 2px;
+    background: white;
+    border-radius: 50%;
+    transition: 0.3s;
+  }
+
+  input:checked + .slider {
+    background: #4caf50;
+  }
+
+  input:checked + .slider::before {
+    transform: translateX(20px);
+  }
+
+  .switch-label {
+    font-size: 14px;
+    color: #333;
+  }
+  
+}
+.dictionary-empty {
+  padding: 20px;
+  text-align: center;
+  color: #888;
+  font-size: 16px;
+}
+/* Красивый select */
+.search-controls {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 15px 0 25px;
+}
+
+.lang-label {
+  font-weight: 500;
+  color: #333;
+}
+
+.custom-select {
+  appearance: none;
+  padding: 10px 40px 10px 14px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='%23666' viewBox='0 0 16 16'%3E%3Cpath d='M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592c.86 0 1.32 1.013.753 1.658l-4.796 5.482a1 1 0 01-1.506 0z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 14px center;
+  min-width: 180px;
+}
+
+.custom-select:focus {
+  outline: none;
+  border-color: #4a90e2;
+  box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.2);
+}
+
+.custom-select:hover {
+  border-color: #bbb;
+}
+
+/* Подсветка */
+.highlight {
+  background-color: #faea05ee;
+  border-radius: 3px;
+}
+@media (max-width: 768px) {
+  .Dictionary {
+    padding: 1rem;
+    max-width: 100%;
+  }
+
+  .dictionary-lang {
+    grid-template-columns: 1fr;
+  }
+
+  .dictionary-item.sub {
+    margin-left: 0;
+    padding-left: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .search-bar {
+    flex-direction: column;
+  }
+
+  .search-button {
+    width: 100%;
+    height: 48px;
+  }
+
+  .search-controls {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+  }
+
+  .custom-select {
+    width: 100%;
+  }
+
+  .dictionary-title {
+    font-size: 1.4rem;
+  }
+}

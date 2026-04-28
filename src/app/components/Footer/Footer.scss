@@ -1,0 +1,105 @@
+.Footer{
+    padding: 60px 50px;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    background-color: #eee;
+    border-top: 1px solid #000;
+    flex-wrap: wrap;
+    justify-content: center;
+    .FooterIn{
+        max-width: 40vw;
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+  
+
+        div{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 20px 10px;
+            
+        }
+
+        svg{
+            max-width: 30px;
+            max-height: 30px;
+        }
+
+        a{
+          margin-left: 3px;
+        }
+        
+    }
+
+    .FooterInfo{
+      width: 500px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column ;
+    }
+}
+
+.fb:hover{
+    fill: #3b5998;
+    a{
+    color: #3b5998;
+    }
+}
+
+.inst:hover{
+  color: linear-gradient(
+    to right,
+    #833ab4,
+    #fd1d1d,
+    #fcb045
+  );
+  background-clip: text; /* Добавлено стандартное свойство */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    a {
+      background: linear-gradient(
+        to right,
+        #833ab4,
+        #fd1d1d,
+        #fcb045
+      );
+      background-clip: text; /* Добавлено стандартное свойство */
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+      path {
+        fill: url(#instagram-gradient);
+      }
+}
+
+.yt:hover{
+  fill: #c4302b;
+    a{
+    color: #c4302b;
+    }
+    
+}
+
+.mail:hover{
+    fill: #3b5998;
+    a{
+    color: #3b5998;
+    }
+    
+}
+
+@media(max-width: 800px) {
+    .FooterIn{
+      flex-direction: column;
+      p{
+        display: none;
+      }
+    }
+
+}

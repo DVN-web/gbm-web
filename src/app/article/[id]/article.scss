@@ -1,0 +1,19 @@
+.article{
+    margin: 0 auto;
+    padding: 20px;
+    height: fit-content;
+    font-family: bubble;
+    
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    p{
+        margin: 20px 0;
+        text-indent: 20px;
+        font-size: 23px;
+    }
+    
+}
+

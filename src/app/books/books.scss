@@ -1,0 +1,168 @@
+.container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  color: #333;
+  text-align: center;
+}
+
+.search-form {
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+
+  input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 400px;
+    font-size: 1rem;
+  }
+
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+    &:hover {
+      background-color: #0056b3;
+    }
+  }
+}
+
+.book-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.book-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 15px;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.2s;
+  width: 420px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  &:hover {
+    transform: translateY(-5px);
+  }
+
+  img {
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 4px;
+  }
+
+  h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #333;
+  }
+
+  a {
+    margin-top: auto;
+    display: block;
+    padding: 10px;
+    background-color:  #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+    width: 100%;
+
+    &:hover {
+      background-color: #0056b3;
+    }
+  }
+}
+
+.error-message {
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 15px;
+  border-radius: 4px;
+  margin-bottom: 1.5rem;
+  text-align: center;
+
+  p {
+    margin: 0 0 5px;
+  }
+}
+
+.empty-message {
+  text-align: center;
+  color: #666;
+  font-size: 1.1rem;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  gap: 10px;
+
+  a {
+    padding: 10px 15px;
+    background-color: #e9ecef;
+    color: #333;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+
+    &:hover {
+      background-color: #d3d3d3;
+    }
+  }
+
+  span {
+    font-size: 1rem;
+    color: #333;
+  }
+}
+
+@media (max-width: 768px) {
+  .book-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .search-form {
+    flex-direction: column;
+    align-items: center;
+
+    input {
+      max-width: 100%;
+    }
+
+    button {
+      width: 100%;
+      max-width: 200px;
+    }
+  }
+}

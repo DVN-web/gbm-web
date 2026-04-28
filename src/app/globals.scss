@@ -1,0 +1,296 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+}
+
+.head{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.blueLink:hover{
+    color: #009;
+}
+
+ul{
+    list-style: none;
+}
+li{
+    list-style: none;
+}
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@media(max-width: 800px) {
+    .drawerLinks{
+        display: block;
+    }
+    .Links{
+        display: none;
+    }
+
+    .sidebar{
+        display: none;
+    }
+
+    .video{
+        width: calc(560 * 0.12vh);
+        height: calc(315 * 0.12vh);
+    }
+
+}
+
+.Alphabet{
+    width: 100%;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+   img{
+    margin: 50px auto;
+    width: calc(1.8*248px);
+    height: calc(1.8*351px);
+   }
+   *{
+    object-fit: cover;
+    object-position: center;
+   }
+
+   
+}
+
+.head {
+    position: relative;
+    left: auto;
+    transform: none;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.video {
+    width: 100%;
+    max-width: 800px;
+    aspect-ratio: 16 / 9;
+    height: auto;
+}
+
+/* Меню */
+.drawerLinks {
+    display: none;
+}
+
+@media (max-width: 800px) {
+    .drawerLinks {
+        display: block;
+    }
+
+    .Links {
+        display: none;
+    }
+
+    .sidebar {
+        display: none;
+    }
+}
+
+/* Alphabet */
+.Alphabet {
+  padding: 40px 20px;
+}
+
+.Alphabet img {
+  max-width: 400px;
+  height: auto;
+}
+
+/* Типографика */
+@media (max-width: 768px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+/* Отступы */
+
+@media (max-width: 768px) {
+  .HistoryOfGagauz {
+    padding: 0 15px 40px;
+  }
+
+  .HistoryOfGagauz h1,
+  .HistoryOfGagauz h3 {
+    width: 100%;
+    margin: 15px 0;
+  }
+
+  .HistoryOfGagauz p,
+  .HistoryOfGagauz li {
+    font-size: 16px;
+    text-indent: 0; /* убираем красную строку */
+    line-height: 1.6;
+  }
+}
+
+/* 📱 Очень маленькие экраны */
+@media (max-width: 480px) {
+  .HistoryOfGagauz h1 {
+    font-size: 22px;
+  }
+
+  .HistoryOfGagauz h3 {
+    font-size: 18px;
+  }
+
+  .HistoryOfGagauz p,
+  .HistoryOfGagauz li {
+    font-size: 15px;
+  }
+}
+
+.HistoryOfGagauz{
+    margin: 10px;
+
+    a{
+        color: blue;
+    }
+    h1, h3, li{
+        width: fit-content;
+        margin: 20px;
+    }
+    p, li{
+        width: 90%;
+        margin: 0 0 10px;
+        text-indent: 2em;
+        font-size: 20px;
+        
+    }
+   
+}
+
+.VideoSection{
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+
+    .par{
+        width: 80%;
+        margin-bottom: 30px;
+    }
+
+    h1{
+        margin: 0 0 30px;
+    }
+
+    
+}
+
+.ManagementStructure{
+    padding: 20px;
+    width: 100%;
+    
+    .title{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        img{
+        width: 80%;
+        
+        margin: 20px 0;
+        }
+    }
+
+    .otcetList{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        img{
+            width: 50%;
+        }
+
+        a{
+          display: flex;
+          justify-content: center;
+        }
+
+        
+    }
+}
+
+.otcetLink:hover{
+  border-bottom: 4px solid #00afef;
+    
+}
+
+.PlanOfWork{
+    width: 100%;
+    padding: 20px;
+
+    a{
+        color: #00afef;
+    }
+    .title{
+        width: 100%;
+        margin: 0 0 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        img{
+        width: 990px;
+        height: 597px;
+        margin: 20px 0;
+        }
+    }
+}
+.otcetList{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        img{
+            width: 760px;
+            height: 1053px;
+        }
+
+        
+    }
+#planImage1 img{
+    height: 760px;
+    width: 1053px;
+}
+#planImage2 img{
+    height: 760px;
+    width: 1053px;
+}

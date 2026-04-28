@@ -1,0 +1,19 @@
+.Alphabet{
+    width: 100%;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+   img{
+    margin: 50px auto;
+    width: calc(1.8*248px);
+    height: calc(1.8*351px);
+   }
+   *{
+    object-fit: cover;
+    object-position: center;
+   }
+
+   
+}

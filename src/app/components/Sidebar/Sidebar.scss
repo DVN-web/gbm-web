@@ -1,0 +1,38 @@
+
+.sidebar {
+  width: 320px;
+  padding: 20px;
+  border-right: 1px solid #000;
+
+  h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 20px;
+  }
+
+  li{
+    margin: 20px 0;
+  }
+}
+
+.link-project{
+  text-decoration: none;
+  
+}
+.project-image{
+  border-bottom: 4px solid #fff;
+}
+
+.project-image:hover{
+  border-bottom: 4px solid #00afef;
+  transform: scale(1.1);
+  transition: transform 0.8s ease;
+}
+
+.project-image {
+  width: 320px;
+  height: 180px;
+  border-radius: 8px;
+  object-fit: cover;
+}

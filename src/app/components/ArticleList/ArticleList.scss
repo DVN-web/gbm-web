@@ -1,0 +1,41 @@
+.preViewImg{
+    max-width: 60%;
+    min-width: 400px;
+    max-height: 80vh;     /* или 500px — подбери под свой дизайн */
+    height: auto;
+    width: auto;
+    margin: 0 auto;
+}
+
+.news{
+    width: 80%;
+    margin: 0 auto;
+    width: 70vw;
+}
+
+.verLine{
+    height: 100%;
+    width: 3px;
+    background-color: #009;
+}
+
+.ArticleList{
+    width: 100%;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.pag{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.date{
+    width: 140px;
+    font-size: 22px;
+    font-weight: bold;
+}
+

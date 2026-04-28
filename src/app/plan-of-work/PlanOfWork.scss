@@ -1,0 +1,44 @@
+.PlanOfWork{
+    width: 100%;
+    padding: 20px;
+
+    a{
+        color: #00afef;
+    }
+    .title{
+        width: 100%;
+        margin: 0 0 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        img{
+        width: 990px;
+        height: 597px;
+        margin: 20px 0;
+        }
+    }
+}
+.otcetList{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        img{
+            width: 760px;
+            height: 1053px;
+        }
+
+        
+    }
+#planImage1 img{
+    height: 760px;
+    width: 1053px;
+}
+#planImage2 img{
+    height: 760px;
+    width: 1053px;
+}
