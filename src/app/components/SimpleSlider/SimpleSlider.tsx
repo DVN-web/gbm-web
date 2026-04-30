@@ -3,7 +3,6 @@
 
 import { useState, useEffect } from "react";
 import Image from "next/image";
-import "./SimpleSlider.scss";
 
 const images = [
   "/slider/slide1.png",
@@ -12,7 +11,7 @@ const images = [
   "/slider/slide4.png",
   "/slider/slide5.png",
   "/slider/slide6.png",
-  
+  "/slider/slide7.JPG"
 ];
 
 const AUTO_PLAY = 4500; // 4.5 сек
