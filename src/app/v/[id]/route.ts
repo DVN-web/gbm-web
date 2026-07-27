@@ -11,9 +11,9 @@ type RedirectEntry = {
 
 export async function GET(
   request: NextRequest,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
-  const { id } = params
+  const { id } = await params
 
   const filePath = path.join(process.cwd(), 'public', 'redirects.json')
   const fileContents = fs.readFileSync(filePath, 'utf8')
