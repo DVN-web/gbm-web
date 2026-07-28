@@ -26,10 +26,11 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        flex-wrap: wrap;
 
         img{
-            width: 760px;
-            height: 1053px;
+            width: 20vw;
+            height: 20vh;
         }
 
         

@@ -254,6 +254,10 @@ code {
     width: 100%;
     padding: 20px;
 
+    h3{
+      margin: 0 0 20px;
+    }
+
     a{
         color: #00afef;
     }
@@ -286,14 +290,23 @@ code {
 
         
     }
-#planImage1 img{
-    height: 760px;
-    width: 1053px;
-}
-#planImage2 img{
-    height: 760px;
-    width: 1053px;
-}
+.otcetList{
+  margin: 50px 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        img{
+            width: 25vw;
+            height: 25vh;
+            margin: 0 20px 20px 0;
+            border: 1px solid black;
+        }
+
+        
+    }
 
 
 .wide-slider {

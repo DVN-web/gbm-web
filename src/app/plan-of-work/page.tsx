@@ -66,7 +66,7 @@ export default function ManagementStructure(){
                     </div>
                     <div>
                         <h3> УСТАВ Научно-исследовательского центра Гагаузии им. М.В. Маруневич <a href="https://cloud.mail.ru/public/MpxS/BSsvBdqVw">Скачать</a></h3>
-                        
+                        <h3> ПЛАН ГЕНДЕРНОГО РАВЕНСТВА (ПГР) <a href="/plan/gender-equality-ru.pdf">Скачать</a></h3>
                     </div>
                     <div className='otcetList'>
                         {planArr.map(obj=>(
