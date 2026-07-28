@@ -1,8 +1,746 @@
 [
   {
-    "id": "city-ro",
-    "name": "Город RO",
+    "id": "numeral-en",
+    "name": "Числительное EN",
+    "linkToVideo": "",
+    "linkToWeb": "https://gbm.md/v/numeral-en"
+  },
+  {
+    "id": "numeral-ro",
+    "name": "Числительное RO",
+    "linkToVideo": "",
+    "linkToWeb": "https://gbm.md/v/numeral-ro"
+  },
+  {
+    "id": "numeral-gag",
+    "name": "Числительное GAG",
+    "linkToVideo": "",
+    "linkToWeb": "https://gbm.md/v/numeral-gag"
+  },
+  {
+    "id": "numeral-bg",
+    "name": "Числительное BG",
+    "linkToVideo": "",
+    "linkToWeb": "https://gbm.md/v/numeral-bg"
+  },
+  {
+    "id": "verb-en",
+    "name": "Глагол EN",
+    "linkToVideo": "https://youtu.be/hwNZTA5_Ucc",
+    "linkToWeb": "https://gbm.md/v/verb-en"
+  },
+  {
+    "id": "verb-ro",
+    "name": "Глагол RO",
+    "linkToVideo": "https://youtu.be/N-JFlJ9rvv8",
+    "linkToWeb": "https://gbm.md/v/verb-ro"
+  },
+  {
+    "id": "verb-gag",
+    "name": "Глагол GAG",
+    "linkToVideo": "https://youtu.be/t5iTVZieDqo",
+    "linkToWeb": "https://gbm.md/v/verb-gag"
+  },
+  {
+    "id": "verb-bg",
+    "name": "Глагол BG",
+    "linkToVideo": "",
+    "linkToWeb": "https://gbm.md/v/verb-bg"
+  },
+  {
+    "id": "pronoun-en",
+    "name": "Местоимение EN",
+    "linkToVideo": "https://youtu.be/R3GDIpIWq50",
+    "linkToWeb": "https://gbm.md/v/pronoun-en"
+  },
+  {
+    "id": "pronoun-ro",
+    "name": "Местоимение RO",
+    "linkToVideo": "https://youtu.be/yyo0BZU9crE",
+    "linkToWeb": "https://gbm.md/v/pronoun-ro"
+  },
+  {
+    "id": "pronoun-gag",
+    "name": "Местоимение GAG",
+    "linkToVideo": "https://youtu.be/EPH60veVGSw",
+    "linkToWeb": "https://gbm.md/v/pronoun-gag"
+  },
+  {
+    "id": "pronoun-bg",
+    "name": "Местоимение BG",
+    "linkToVideo": "",
+    "linkToWeb": "https://gbm.md/v/pronoun-bg"
+  },
+  {
+    "id": "adjective-en",
+    "name": "Прилагательное EN",
+    "linkToVideo": "https://youtu.be/gd1wvjTd52Y",
+    "linkToWeb": "https://gbm.md/v/adjective-en"
+  },
+  {
+    "id": "adjective-ro",
+    "name": "Прилагательное RO",
+    "linkToVideo": "https://youtu.be/Po7Jg3O2oh4",
+    "linkToWeb": "https://gbm.md/v/adjective-ro"
+  },
+  {
+    "id": "adjective-gag",
+    "name": "Прилагательное GAG",
+    "linkToVideo": "https://youtu.be/qwyN0wbF1cc",
+    "linkToWeb": "https://gbm.md/v/adjective-gag"
+  },
+  {
+    "id": "adjective-bg",
+    "name": "Прилагательное BG",
+    "linkToVideo": "",
+    "linkToWeb": "https://gbm.md/v/adjective-bg"
+  },
+  {
+    "id": "colors-en",
+    "name": "Цвета EN",
+    "linkToVideo": "https://youtu.be/7s_CtbLkrGE",
+    "linkToWeb": "https://gbm.md/v/colors-en"
+  },
+  {
+    "id": "colors-ro",
+    "name": "Цвета RO",
+    "linkToVideo": "https://youtu.be/LXvUbHE_8-E",
+    "linkToWeb": "https://gbm.md/v/colors-ro"
+  },
+  {
+    "id": "colors-gag",
+    "name": "Цвета GAG",
+    "linkToVideo": "",
+    "linkToWeb": "https://gbm.md/v/colors-gag"
+  },
+  {
+    "id": "colors-bg",
+    "name": "Цвета BG",
+    "linkToVideo": "",
+    "linkToWeb": "https://gbm.md/v/colors-bg"
+  },
+  {
+    "id": "the-world-en",
+    "name": "Мир EN",
+    "linkToVideo": "https://youtu.be/cABD_QWsZQ8",
+    "linkToWeb": "https://gbm.md/v/the-world-en"
+  },
+  {
+    "id": "the-world-ro",
+    "name": "Мир RO",
+    "linkToVideo": "https://youtu.be/bZcbpNJwUtU",
+    "linkToWeb": "https://gbm.md/v/the-world-ro"
+  },
+  {
+    "id": "the-world-gag",
+    "name": "Мир GAG",
+    "linkToVideo": "https://youtu.be/RetXbGO588Q",
+    "linkToWeb": "https://gbm.md/v/the-world-gag"
+  },
+  {
+    "id": "the-world-bg",
+    "name": "Мир BG",
+    "linkToVideo": "",
+    "linkToWeb": "https://gbm.md/v/the-world-bg"
+  },
+  {
+    "id": "in-the-city-en",
+    "name": "В городе EN",
+    "linkToVideo": "https://youtu.be/669mlT8bx9E",
+    "linkToWeb": "https://gbm.md/v/in-the-city-en"
+  },
+  {
+    "id": "in-the-city-ro",
+    "name": "В городе RO",
     "linkToVideo": "https://youtu.be/vlCKd2RVU_Y",
-    "linkToWeb": "https://gbm.md/v/city-ro"
+    "linkToWeb": "https://gbm.md/v/in-the-city-ro"
+  },
+  {
+    "id": "in-the-city-gag",
+    "name": "В городе GAG",
+    "linkToVideo": "https://youtu.be/9QbyxKKUx4A",
+    "linkToWeb": "https://gbm.md/v/in-the-city-gag"
+  },
+  {
+    "id": "in-the-city-bg",
+    "name": "В городе BG",
+    "linkToVideo": "",
+    "linkToWeb": "https://gbm.md/v/in-the-city-bg"
+  },
+  {
+    "id": "the-human-body-en",
+    "name": "Тело человека EN",
+    "linkToVideo": "",
+    "linkToWeb": "https://gbm.md/v/the-human-body-en"
+  },
+  {
+    "id": "the-human-body-ro",
+    "name": "Тело человека RO",
+    "linkToVideo": "",
+    "linkToWeb": "https://gbm.md/v/the-human-body-ro"
+  },
+  {
+    "id": "the-human-body-gag",
+    "name": "Тело человека GAG",
+    "linkToVideo": "",
+    "linkToWeb": "https://gbm.md/v/the-human-body-gag"
+  },
+  {
+    "id": "the-human-body-bg",
+    "name": "Тело человека BG",
+    "linkToVideo": "",
+    "linkToWeb": "https://gbm.md/v/the-human-body-bg"
+  },
+  {
+    "id": "house-en",
+    "name": "Дом EN",
+    "linkToVideo": "https://youtu.be/9x2cBc9TqUE",
+    "linkToWeb": "https://gbm.md/v/house-en"
+  },
+  {
+    "id": "house-ro",
+    "name": "Дом RO",
+    "linkToVideo": "https://youtu.be/oEncSpqaNHE",
+    "linkToWeb": "https://gbm.md/v/house-ro"
+  },
+  {
+    "id": "house-gag",
+    "name": "Дом GAG",
+    "linkToVideo": "https://youtu.be/R-GplW75dCw",
+    "linkToWeb": "https://gbm.md/v/house-gag"
+  },
+  {
+    "id": "house-bg",
+    "name": "Дом BG",
+    "linkToVideo": "",
+    "linkToWeb": "https://gbm.md/v/house-bg"
+  },
+  {
+    "id": "family-and-relatives-en",
+    "name": "Семья и родственники EN",
+    "linkToVideo": "",
+    "linkToWeb": "https://gbm.md/v/family-and-relatives-en"
+  },
+  {
+    "id": "family-and-relatives-ro",
+    "name": "Семья и родственники RO",
+    "linkToVideo": "",
+    "linkToWeb": "https://gbm.md/v/family-and-relatives-ro"
+  },
+  {
+    "id": "family-and-relatives-gag",
+    "name": "Семья и родственники GAG",
+    "linkToVideo": "",
+    "linkToWeb": "https://gbm.md/v/family-and-relatives-gag"
+  },
+  {
+    "id": "family-and-relatives-bg",
+    "name": "Семья и родственники BG",
+    "linkToVideo": "",
+    "linkToWeb": "https://gbm.md/v/family-and-relatives-bg"
+  },
+  {
+    "id": "time-en",
+    "name": "Время EN",
+    "linkToVideo": "https://youtu.be/_eZ4ioe8WSs",
+    "linkToWeb": "https://gbm.md/v/time-en"
+  },
+  {
+    "id": "time-ro",
+    "name": "Время RO",
+    "linkToVideo": "https://youtu.be/YrSYHEsNSb4",
+    "linkToWeb": "https://gbm.md/v/time-ro"
+  },
+  {
+    "id": "time-gag",
+    "name": "Время GAG",
+    "linkToVideo": "https://youtu.be/7-7xlSyZhHg",
+    "linkToWeb": "https://gbm.md/v/time-gag"
+  },
+  {
+    "id": "time-bg",
+    "name": "Время BG",
+    "linkToVideo": "",
+    "linkToWeb": "https://gbm.md/v/time-bg"
+  },
+  {
+    "id": "measurement-units-en",
+    "name": "Единицы измерения EN",
+    "linkToVideo": "https://youtu.be/eizDJ1RLI-s",
+    "linkToWeb": "https://gbm.md/v/measurement-units-en"
+  },
+  {
+    "id": "measurement-units-ro",
+    "name": "Единицы измерения RO",
+    "linkToVideo": "https://youtu.be/BO0gmMP4lzE",
+    "linkToWeb": "https://gbm.md/v/measurement-units-ro"
+  },
+  {
+    "id": "measurement-units-gag",
+    "name": "Единицы измерения GAG",
+    "linkToVideo": "https://youtu.be/viuyp2VjeVE",
+    "linkToWeb": "https://gbm.md/v/measurement-units-gag"
+  },
+  {
+    "id": "measurement-units-bg",
+    "name": "Единицы измерения BG",
+    "linkToVideo": "",
+    "linkToWeb": "https://gbm.md/v/measurement-units-bg"
+  },
+  {
+    "id": "clothing-en",
+    "name": "Одежда EN",
+    "linkToVideo": "https://youtu.be/q4UnOnXQdkk",
+    "linkToWeb": "https://gbm.md/v/clothing-en"
+  },
+  {
+    "id": "clothing-ro",
+    "name": "Одежда RO",
+    "linkToVideo": "https://youtu.be/_-zpWHqYLy8",
+    "linkToWeb": "https://gbm.md/v/clothing-ro"
+  },
+  {
+    "id": "clothing-gag",
+    "name": "Одежда GAG",
+    "linkToVideo": "https://youtu.be/1HwzCeMc2EI",
+    "linkToWeb": "https://gbm.md/v/clothing-gag"
+  },
+  {
+    "id": "clothing-bg",
+    "name": "Одежда BG",
+    "linkToVideo": "",
+    "linkToWeb": "https://gbm.md/v/clothing-bg"
+  },
+  {
+    "id": "transport-en",
+    "name": "Транспорт EN",
+    "linkToVideo": "https://youtu.be/Ph7J6mxYZH8",
+    "linkToWeb": "https://gbm.md/v/transport-en"
+  },
+  {
+    "id": "transport-ro",
+    "name": "Транспорт RO",
+    "linkToVideo": "https://youtu.be/dt68Bm4EQE4",
+    "linkToWeb": "https://gbm.md/v/transport-ro"
+  },
+  {
+    "id": "transport-gag",
+    "name": "Транспорт GAG",
+    "linkToVideo": "",
+    "linkToWeb": "https://gbm.md/v/transport-gag"
+  },
+  {
+    "id": "transport-bg",
+    "name": "Транспорт BG",
+    "linkToVideo": "",
+    "linkToWeb": "https://gbm.md/v/transport-bg"
+  },
+  {
+    "id": "education-en",
+    "name": "Образование EN",
+    "linkToVideo": "https://youtu.be/BRQrfG6LLyw",
+    "linkToWeb": "https://gbm.md/v/education-en"
+  },
+  {
+    "id": "education-ro",
+    "name": "Образование RO",
+    "linkToVideo": "https://youtu.be/t1NSGEXTI6M",
+    "linkToWeb": "https://gbm.md/v/education-ro"
+  },
+  {
+    "id": "education-gag",
+    "name": "Образование GAG",
+    "linkToVideo": "https://youtu.be/Wyqg-bf8FcY",
+    "linkToWeb": "https://gbm.md/v/education-gag"
+  },
+  {
+    "id": "education-bg",
+    "name": "Образование BG",
+    "linkToVideo": "",
+    "linkToWeb": "https://gbm.md/v/education-bg"
+  },
+  {
+    "id": "professions-en",
+    "name": "Профессии EN",
+    "linkToVideo": "https://youtu.be/1U9jg7y-AZI",
+    "linkToWeb": "https://gbm.md/v/professions-en"
+  },
+  {
+    "id": "professions-ro",
+    "name": "Профессии RO",
+    "linkToVideo": "https://youtu.be/9chANP7UoVI",
+    "linkToWeb": "https://gbm.md/v/professions-ro"
+  },
+  {
+    "id": "professions-gag",
+    "name": "Профессии GAG",
+    "linkToVideo": "https://youtu.be/r89mtqoLEzM",
+    "linkToWeb": "https://gbm.md/v/professions-gag"
+  },
+  {
+    "id": "professions-bg",
+    "name": "Профессии BG",
+    "linkToVideo": "",
+    "linkToWeb": "https://gbm.md/v/professions-bg"
+  },
+  {
+    "id": "health-en",
+    "name": "Здоровье EN",
+    "linkToVideo": "https://youtu.be/g_mSUrNEIeo",
+    "linkToWeb": "https://gbm.md/v/health-en"
+  },
+  {
+    "id": "health-ro",
+    "name": "Здоровье RO",
+    "linkToVideo": "https://youtu.be/XHyeH4A3Ujw",
+    "linkToWeb": "https://gbm.md/v/health-ro"
+  },
+  {
+    "id": "health-gag",
+    "name": "Здоровье GAG",
+    "linkToVideo": "https://youtu.be/HCsGoB0KZwQ",
+    "linkToWeb": "https://gbm.md/v/health-gag"
+  },
+  {
+    "id": "health-bg",
+    "name": "Здоровье BG",
+    "linkToVideo": "",
+    "linkToWeb": "https://gbm.md/v/health-bg"
+  },
+  {
+    "id": "nutrition-en",
+    "name": "Питание EN",
+    "linkToVideo": "https://youtu.be/cvGtfc6HmM0",
+    "linkToWeb": "https://gbm.md/v/nutrition-en"
+  },
+  {
+    "id": "nutrition-ro",
+    "name": "Питание RO",
+    "linkToVideo": "https://youtu.be/0ubJQbhSHYg",
+    "linkToWeb": "https://gbm.md/v/nutrition-ro"
+  },
+  {
+    "id": "nutrition-gag",
+    "name": "Питание GAG",
+    "linkToVideo": "https://youtu.be/c2B4GVY2D6w",
+    "linkToWeb": "https://gbm.md/v/nutrition-gag"
+  },
+  {
+    "id": "nutrition-bg",
+    "name": "Питание BG",
+    "linkToVideo": "",
+    "linkToWeb": "https://gbm.md/v/nutrition-bg"
+  },
+  {
+    "id": "technology-en",
+    "name": "Технологии EN",
+    "linkToVideo": "https://youtu.be/te_Io5zZNhg",
+    "linkToWeb": "https://gbm.md/v/technology-en"
+  },
+  {
+    "id": "technology-ro",
+    "name": "Технологии RO",
+    "linkToVideo": "https://youtu.be/JzNaT3OI-9U",
+    "linkToWeb": "https://gbm.md/v/technology-ro"
+  },
+  {
+    "id": "technology-gag",
+    "name": "Технологии GAG",
+    "linkToVideo": "",
+    "linkToWeb": "https://gbm.md/v/technology-gag"
+  },
+  {
+    "id": "technology-bg",
+    "name": "Технологии BG",
+    "linkToVideo": "",
+    "linkToWeb": "https://gbm.md/v/technology-bg"
+  },
+  {
+    "id": "musical-instruments-en",
+    "name": "Музыкальные инструменты EN",
+    "linkToVideo": "https://youtu.be/YUgtoZxXY-s",
+    "linkToWeb": "https://gbm.md/v/musical-instruments-en"
+  },
+  {
+    "id": "musical-instruments-ro",
+    "name": "Музыкальные инструменты RO",
+    "linkToVideo": "https://youtu.be/fDFV7CTCzHg",
+    "linkToWeb": "https://gbm.md/v/musical-instruments-ro"
+  },
+  {
+    "id": "musical-instruments-gag",
+    "name": "Музыкальные инструменты GAG",
+    "linkToVideo": "",
+    "linkToWeb": "https://gbm.md/v/musical-instruments-gag"
+  },
+  {
+    "id": "musical-instruments-bg",
+    "name": "Музыкальные инструменты BG",
+    "linkToVideo": "https://youtu.be/hrK1XMNsiMk",
+    "linkToWeb": "https://gbm.md/v/musical-instruments-bg"
+  },
+  {
+    "id": "trade-en",
+    "name": "Торговля EN",
+    "linkToVideo": "https://youtu.be/iMfkXlZ-FKQ",
+    "linkToWeb": "https://gbm.md/v/trade-en"
+  },
+  {
+    "id": "trade-ro",
+    "name": "Торговля RO",
+    "linkToVideo": "https://youtu.be/gag7qK5uDmk",
+    "linkToWeb": "https://gbm.md/v/trade-ro"
+  },
+  {
+    "id": "trade-gag",
+    "name": "Торговля GAG",
+    "linkToVideo": "",
+    "linkToWeb": "https://gbm.md/v/trade-gag"
+  },
+  {
+    "id": "trade-bg",
+    "name": "Торговля BG",
+    "linkToVideo": "",
+    "linkToWeb": "https://gbm.md/v/trade-bg"
+  },
+  {
+    "id": "restaurant-en",
+    "name": "Ресторан EN",
+    "linkToVideo": "https://youtu.be/LFiUPuxprj0",
+    "linkToWeb": "https://gbm.md/v/restaurant-en"
+  },
+  {
+    "id": "restaurant-ro",
+    "name": "Ресторан RO",
+    "linkToVideo": "https://youtu.be/5HWe0WSfVdc",
+    "linkToWeb": "https://gbm.md/v/restaurant-ro"
+  },
+  {
+    "id": "restaurant-gag",
+    "name": "Ресторан GAG",
+    "linkToVideo": "",
+    "linkToWeb": "https://gbm.md/v/restaurant-gag"
+  },
+  {
+    "id": "restaurant-bg",
+    "name": "Ресторан BG",
+    "linkToVideo": "",
+    "linkToWeb": "https://gbm.md/v/restaurant-bg"
+  },
+  {
+    "id": "entertainment-and-hobbies-en",
+    "name": "Развлечения и хобби EN",
+    "linkToVideo": "https://youtu.be/MLwuaz_6Xn4",
+    "linkToWeb": "https://gbm.md/v/entertainment-and-hobbies-en"
+  },
+  {
+    "id": "entertainment-and-hobbies-ro",
+    "name": "Развлечения и хобби RO",
+    "linkToVideo": "https://youtu.be/gyLPo5ZujuA",
+    "linkToWeb": "https://gbm.md/v/entertainment-and-hobbies-ro"
+  },
+  {
+    "id": "entertainment-and-hobbies-gag",
+    "name": "Развлечения и хобби GAG",
+    "linkToVideo": "https://youtu.be/IgHlkaJEmRI",
+    "linkToWeb": "https://gbm.md/v/entertainment-and-hobbies-gag"
+  },
+  {
+    "id": "entertainment-and-hobbies-bg",
+    "name": "Развлечения и хобби BG",
+    "linkToVideo": "",
+    "linkToWeb": "https://gbm.md/v/entertainment-and-hobbies-bg"
+  },
+  {
+    "id": "sport-en",
+    "name": "Спорт EN",
+    "linkToVideo": "https://youtu.be/CanA1wnJgPA",
+    "linkToWeb": "https://gbm.md/v/sport-en"
+  },
+  {
+    "id": "sport-ro",
+    "name": "Спорт RO",
+    "linkToVideo": "https://youtu.be/c4AQeKi3JT4",
+    "linkToWeb": "https://gbm.md/v/sport-ro"
+  },
+  {
+    "id": "sport-gag",
+    "name": "Спорт GAG",
+    "linkToVideo": "",
+    "linkToWeb": "https://gbm.md/v/sport-gag"
+  },
+  {
+    "id": "sport-bg",
+    "name": "Спорт BG",
+    "linkToVideo": "",
+    "linkToWeb": "https://gbm.md/v/sport-bg"
+  },
+  {
+    "id": "plants-en",
+    "name": "Растения EN",
+    "linkToVideo": "https://youtu.be/3nMLE9FMm5A",
+    "linkToWeb": "https://gbm.md/v/plants-en"
+  },
+  {
+    "id": "plants-ro",
+    "name": "Растения RO",
+    "linkToVideo": "https://youtu.be/aMy8m0REjBg",
+    "linkToWeb": "https://gbm.md/v/plants-ro"
+  },
+  {
+    "id": "plants-gag",
+    "name": "Растения GAG",
+    "linkToVideo": "",
+    "linkToWeb": "https://gbm.md/v/plants-gag"
+  },
+  {
+    "id": "plants-bg",
+    "name": "Растения BG",
+    "linkToVideo": "",
+    "linkToWeb": "https://gbm.md/v/plants-bg"
+  },
+  {
+    "id": "animals-en",
+    "name": "Животные EN",
+    "linkToVideo": "https://youtu.be/bb9kGjqzN-s",
+    "linkToWeb": "https://gbm.md/v/animals-en"
+  },
+  {
+    "id": "animals-ro",
+    "name": "Животные RO",
+    "linkToVideo": "https://youtu.be/NpBm9xe3JaA",
+    "linkToWeb": "https://gbm.md/v/animals-ro"
+  },
+  {
+    "id": "animals-gag",
+    "name": "Животные GAG",
+    "linkToVideo": "https://youtu.be/QsGP03xeDbg",
+    "linkToWeb": "https://gbm.md/v/animals-gag"
+  },
+  {
+    "id": "animals-bg",
+    "name": "Животные BG",
+    "linkToVideo": "",
+    "linkToWeb": "https://gbm.md/v/animals-bg"
+  },
+  {
+    "id": "feelings-en",
+    "name": "Чувства EN",
+    "linkToVideo": "https://youtu.be/nmRkezeXRic",
+    "linkToWeb": "https://gbm.md/v/feelings-en"
+  },
+  {
+    "id": "feelings-ro",
+    "name": "Чувства RO",
+    "linkToVideo": "https://youtu.be/B8wE0kpQapc",
+    "linkToWeb": "https://gbm.md/v/feelings-ro"
+  },
+  {
+    "id": "feelings-gag",
+    "name": "Чувства GAG",
+    "linkToVideo": "",
+    "linkToWeb": "https://gbm.md/v/feelings-gag"
+  },
+  {
+    "id": "feelings-bg",
+    "name": "Чувства BG",
+    "linkToVideo": "",
+    "linkToWeb": "https://gbm.md/v/feelings-bg"
+  },
+  {
+    "id": "questions-en",
+    "name": "Вопросы EN",
+    "linkToVideo": "https://youtu.be/iBMnvnupj6I",
+    "linkToWeb": "https://gbm.md/v/questions-en"
+  },
+  {
+    "id": "questions-ro",
+    "name": "Вопросы RO",
+    "linkToVideo": "https://youtu.be/jL1wCUC1Two",
+    "linkToWeb": "https://gbm.md/v/questions-ro"
+  },
+  {
+    "id": "questions-gag",
+    "name": "Вопросы GAG",
+    "linkToVideo": "https://youtu.be/oyghlF9lhnw",
+    "linkToWeb": "https://gbm.md/v/questions-gag"
+  },
+  {
+    "id": "questions-bg",
+    "name": "Вопросы BG",
+    "linkToVideo": "",
+    "linkToWeb": "https://gbm.md/v/questions-bg"
+  },
+  {
+    "id": "geometric-figures-en",
+    "name": "Геометрические фигуры EN",
+    "linkToVideo": "https://youtu.be/dkxBrQz-y6w",
+    "linkToWeb": "https://gbm.md/v/geometric-figures-en"
+  },
+  {
+    "id": "geometric-figures-ro",
+    "name": "Геометрические фигуры RO",
+    "linkToVideo": "https://youtu.be/ZKV93cWUI4E",
+    "linkToWeb": "https://gbm.md/v/geometric-figures-ro"
+  },
+  {
+    "id": "geometric-figures-gag",
+    "name": "Геометрические фигуры GAG",
+    "linkToVideo": "https://youtu.be/E_WUrwY3fYA",
+    "linkToWeb": "https://gbm.md/v/geometric-figures-gag"
+  },
+  {
+    "id": "geometric-figures-bg",
+    "name": "Геометрические фигуры BG",
+    "linkToVideo": "",
+    "linkToWeb": "https://gbm.md/v/geometric-figures-bg"
+  },
+  {
+    "id": "signs-and-symbols-en",
+    "name": "Знаки и символы EN",
+    "linkToVideo": "https://youtu.be/RrjF61fkhls",
+    "linkToWeb": "https://gbm.md/v/signs-and-symbols-en"
+  },
+  {
+    "id": "signs-and-symbols-ro",
+    "name": "Знаки и символы RO",
+    "linkToVideo": "https://youtu.be/gXI1mNNhSDw",
+    "linkToWeb": "https://gbm.md/v/signs-and-symbols-ro"
+  },
+  {
+    "id": "signs-and-symbols-gag",
+    "name": "Знаки и символы GAG",
+    "linkToVideo": "https://youtu.be/NwuA-c2s2no",
+    "linkToWeb": "https://gbm.md/v/signs-and-symbols-gag"
+  },
+  {
+    "id": "signs-and-symbols-bg",
+    "name": "Знаки и символы BG",
+    "linkToVideo": "",
+    "linkToWeb": "https://gbm.md/v/signs-and-symbols-bg"
+  },
+  {
+    "id": "natural-phenomena-en",
+    "name": "Природные явления EN",
+    "linkToVideo": "https://youtu.be/NGDDsj9y68o",
+    "linkToWeb": "https://gbm.md/v/natural-phenomena-en"
+  },
+  {
+    "id": "natural-phenomena-ro",
+    "name": "Природные явления RO",
+    "linkToVideo": "https://youtu.be/xgG86u3i8Y0",
+    "linkToWeb": "https://gbm.md/v/natural-phenomena-ro"
+  },
+  {
+    "id": "natural-phenomena-gag",
+    "name": "Природные явления GAG",
+    "linkToVideo": "https://youtu.be/Qs_Rlb_Ao8c",
+    "linkToWeb": "https://gbm.md/v/natural-phenomena-gag"
+  },
+  {
+    "id": "natural-phenomena-bg",
+    "name": "Природные явления BG",
+    "linkToVideo": "",
+    "linkToWeb": "https://gbm.md/v/natural-phenomena-bg"
   }
 ]
