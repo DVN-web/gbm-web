@@ -742,5 +742,29 @@
     "name": "Природные явления BG",
     "linkToVideo": "https://youtu.be/jWbpfpCfY8U",
     "linkToWeb": "https://gbm.md/v/natural-phenomena-bg"
+  },
+  {
+    "id": "dictionary-audio-en",
+    "name": "Все слова на английском языке из словаря",
+    "linkToVideo": "https://youtu.be/uLokVjAVxHs",
+    "linkToWeb": "https://gbm.md/v/dictionary-audio-en"
+  },
+  {
+    "id": "dictionary-audio-ro",
+    "name": "Все слова на румынском языке из словаря",
+    "linkToVideo": "",
+    "linkToWeb": "https://gbm.md/v/dictionary-audio-ro"
+  },
+  {
+    "id": "dictionary-audio-gag",
+    "name": "Все слова на гагаузском языке из словаря",
+    "linkToVideo": "",
+    "linkToWeb": "https://gbm.md/v/dictionary-audio-gag"
+  },
+  {
+    "id": "dictionary-audio-bg",
+    "name": "Все слова на болгарском языке из словаря",
+    "linkToVideo": "",
+    "linkToWeb": "https://gbm.md/v/dictionary-audio-bg"
   }
 ]
