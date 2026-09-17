@@ -758,13 +758,193 @@
   {
     "id": "dictionary-audio-gag",
     "name": "Все слова на гагаузском языке из словаря",
-    "linkToVideo": "",
+    "linkToVideo": "https://youtu.be/o3_xMota8cg",
     "linkToWeb": "https://gbm.md/v/dictionary-audio-gag"
   },
   {
     "id": "dictionary-audio-bg",
     "name": "Все слова на болгарском языке из словаря",
-    "linkToVideo": "",
+    "linkToVideo": "https://youtu.be/uo3K6pvU5_U",
     "linkToWeb": "https://gbm.md/v/dictionary-audio-bg"
+  },
+    {
+    "id": "yuvan-da-bindi-beygire-lesson",
+    "name": "YUVAN DA BİNDİ BEYGİRE — урок",
+    "linkToVideo": "https://youtu.be/9OCgDP6QkC8",
+    "linkToWeb": "https://gbm.md/v/yuvan-da-bindi-beygire-lesson"
+  },
+  {
+    "id": "yuvan-da-bindi-beygire-example",
+    "name": "YUVAN DA BİNDİ BEYGİRE — пример",
+    "linkToVideo": "",
+    "linkToWeb": "https://gbm.md/v/yuvan-da-bindi-beygire-example"
+  },
+  {
+    "id": "yorgile-stanke-istesmis-lesson",
+    "name": "YORGİLE STANKE İSTEŞMİŞ — урок",
+    "linkToVideo": "https://youtu.be/VSv1MJc9LOY",
+    "linkToWeb": "https://gbm.md/v/yorgile-stanke-istesmis-lesson"
+  },
+  {
+    "id": "yorgile-stanke-istesmis-example",
+    "name": "YORGİLE STANKE İSTEŞMİŞ — пример",
+    "linkToVideo": "https://youtu.be/fRKbtD8GBhE",
+    "linkToWeb": "https://gbm.md/v/yorgile-stanke-istesmis-example"
+  },
+  {
+    "id": "yano-koyun-karagoz-lesson",
+    "name": "YANO KOYUN KARAGÖZ — урок",
+    "linkToVideo": "https://youtu.be/-AToIycizMg",
+    "linkToWeb": "https://gbm.md/v/yano-koyun-karagoz-lesson"
+  },
+  {
+    "id": "yano-koyun-karagoz-example",
+    "name": "YANO KOYUN KARAGÖZ — пример",
+    "linkToVideo": "https://youtu.be/FnHB_Y0aNls",
+    "linkToWeb": "https://gbm.md/v/yano-koyun-karagoz-example"
+  },
+  {
+    "id": "ucurt-yorgi-lesson",
+    "name": "UÇURT YORGİ — урок",
+    "linkToVideo": "https://youtu.be/fk-ZUjKlUe0",
+    "linkToWeb": "https://gbm.md/v/ucurt-yorgi-lesson"
+  },
+  {
+    "id": "ucurt-yorgi-example",
+    "name": "UÇURT YORGİ — пример",
+    "linkToVideo": "https://youtu.be/JMXBSUIBJP0",
+    "linkToWeb": "https://gbm.md/v/ucurt-yorgi-example"
+  },
+  {
+    "id": "su-derenin-uzunu-lesson",
+    "name": "ŞU DERENİN UZUNU — урок",
+    "linkToVideo": "https://youtu.be/4Aby21a3G4g",
+    "linkToWeb": "https://gbm.md/v/su-derenin-uzunu-lesson"
+  },
+  {
+    "id": "su-derenin-uzunu-example",
+    "name": "ŞU DERENİN UZUNU — пример",
+    "linkToVideo": "https://youtu.be/OMZA9w23bIs",
+    "linkToWeb": "https://gbm.md/v/su-derenin-uzunu-example"
+  },
+  {
+    "id": "stano-mari-lesson",
+    "name": "STANO MARİ — урок",
+    "linkToVideo": "https://youtu.be/SIU-qjsmXV4",
+    "linkToWeb": "https://gbm.md/v/stano-mari-lesson"
+  },
+  {
+    "id": "stano-mari-example",
+    "name": "STANO MARİ — пример",
+    "linkToVideo": "https://youtu.be/CEySDokQW80",
+    "linkToWeb": "https://gbm.md/v/stano-mari-example"
+  },
+  {
+    "id": "ruske-lesson",
+    "name": "RUSKE — урок",
+    "linkToVideo": "https://youtu.be/8qL8DkjtpiQ",
+    "linkToWeb": "https://gbm.md/v/ruske-lesson"
+  },
+  {
+    "id": "ruske-example",
+    "name": "RUSKE — пример",
+    "linkToVideo": "https://youtu.be/6aPviiXNGVE",
+    "linkToWeb": "https://gbm.md/v/ruske-example"
+  },
+  {
+    "id": "menekse-buldum-derede-lesson",
+    "name": "MENEKŞE BULDUM DEREDE — урок",
+    "linkToVideo": "https://youtu.be/JX_2aialztQ",
+    "linkToWeb": "https://gbm.md/v/menekse-buldum-derede-lesson"
+  },
+  {
+    "id": "menekse-buldum-derede-example",
+    "name": "MENEKŞE BULDUM DEREDE — пример",
+    "linkToVideo": "https://youtu.be/uuWQnACRuPE",
+    "linkToWeb": "https://gbm.md/v/menekse-buldum-derede-example"
+  },
+  {
+    "id": "mari-todoro-lesson",
+    "name": "MARİ TODORO — урок",
+    "linkToVideo": "https://youtu.be/Dr6pMu6WRq8",
+    "linkToWeb": "https://gbm.md/v/mari-todoro-lesson"
+  },
+  {
+    "id": "mari-todoro-example",
+    "name": "MARİ TODORO — пример",
+    "linkToVideo": "https://youtu.be/iqPbHDqHVhA",
+    "linkToWeb": "https://gbm.md/v/mari-todoro-example"
+  },
+  {
+    "id": "mari-kero-lesson",
+    "name": "MARİ KERO — урок",
+    "linkToVideo": "https://youtu.be/s0JTaNUGX90",
+    "linkToWeb": "https://gbm.md/v/mari-kero-lesson"
+  },
+  {
+    "id": "mari-kero-example",
+    "name": "MARİ KERO — пример",
+    "linkToVideo": "https://youtu.be/TfCrQvYeE2g",
+    "linkToWeb": "https://gbm.md/v/mari-kero-example"
+  },
+  {
+    "id": "kina-gecesi-lesson",
+    "name": "KINA GECESİ — урок",
+    "linkToVideo": "https://youtu.be/tzBpF-Fl3Qw",
+    "linkToWeb": "https://gbm.md/v/kina-gecesi-lesson"
+  },
+  {
+    "id": "kina-gecesi-example",
+    "name": "KINA GECESİ — пример",
+    "linkToVideo": "",
+    "linkToWeb": "https://gbm.md/v/kina-gecesi-example"
+  },
+  {
+    "id": "dimcom-lesson",
+    "name": "DİMÇOM — урок",
+    "linkToVideo": "https://youtu.be/285OIyezjWo",
+    "linkToWeb": "https://gbm.md/v/dimcom-lesson"
+  },
+  {
+    "id": "dimcom-example",
+    "name": "DİMÇOM — пример",
+    "linkToVideo": "https://youtu.be/K7d1Dcp1S9I",
+    "linkToWeb": "https://gbm.md/v/dimcom-example"
+  },
+  {
+    "id": "bindim-kara-beygire-lesson",
+    "name": "BİNDİM KARA BEYGİRE — урок",
+    "linkToVideo": "https://youtu.be/EuJOAJce1eg",
+    "linkToWeb": "https://gbm.md/v/bindim-kara-beygire-lesson"
+  },
+  {
+    "id": "bindim-kara-beygire-example",
+    "name": "BİNDİM KARA BEYGİRE — пример",
+    "linkToVideo": "https://youtu.be/5zFGhSugxBM",
+    "linkToWeb": "https://gbm.md/v/bindim-kara-beygire-example"
+  },
+  {
+    "id": "mari-fido-karagoz-kiz-lesson",
+    "name": "MARİ FİDO KARAGÖZ KIZ — урок",
+    "linkToVideo": "https://youtu.be/SyorQ-MHmM4",
+    "linkToWeb": "https://gbm.md/v/mari-fido-karagoz-kiz-lesson"
+  },
+  {
+    "id": "mari-fido-karagoz-kiz-example",
+    "name": "MARİ FİDO KARAGÖZ KIZ — пример",
+    "linkToVideo": "https://youtu.be/kk0a9tkzDtE",
+    "linkToWeb": "https://gbm.md/v/mari-fido-karagoz-kiz-example"
+  },
+  {
+    "id": "aksam-gectim-lesson",
+    "name": "AKŞAM GEÇTİM — урок",
+    "linkToVideo": "https://youtu.be/EtSoMvhauhQ",
+    "linkToWeb": "https://gbm.md/v/aksam-gectim-lesson"
+  },
+  {
+    "id": "aksam-gectim-example",
+    "name": "AKŞAM GEÇTİM — пример",
+    "linkToVideo": "https://youtu.be/HPXi300i2-g",
+    "linkToWeb": "https://gbm.md/v/aksam-gectim-example"
   }
 ]

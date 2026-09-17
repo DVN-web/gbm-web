@@ -26,4 +26,4 @@ export async function GET(
   }
 
   return NextResponse.redirect(entry.linkToVideo, 307)
-}
+}  
